@@ -45,19 +45,20 @@ export default {
     }; 
   },
   methods: {
+
     registerUser() {
       firebase
         .auth()
         .signInWithEmailAndPassword(this.mail, this.password)
         .then(() => {
-          this.$router.replace({ name: 'Dashboard' });
+          this.$router.replace({ name: 'Home' });
         })
         .catch((err) => {
           this.error = err.message;
         });
-    alert('you are Loged in');
     },
   },
+
 };
 </script>
 
