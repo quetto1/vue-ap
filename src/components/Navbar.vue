@@ -116,7 +116,7 @@ list-style: none;
     font-size: 17px;
     cursor: pointer;
 }
-.nav-links a:hover{
+.nav-links a:focus{
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;

@@ -67,6 +67,7 @@ export default {
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1224px;
     /* border: solid black 2px; */
     /* height: 500px; */
     justify-content: space-evenly;
@@ -106,7 +107,7 @@ padding: 20px;
     margin-right: auto;
     /* height: 500px; */
     justify-content: space-evenly;
-
+max-width: 1224px;
   }
 
   .screen-night-img2{

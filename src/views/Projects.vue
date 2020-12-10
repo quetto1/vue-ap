@@ -1,14 +1,13 @@
 <template>
   <div>
-<!-- WEBSITE CONENT -->
+<!-- Page conent -->
     <TemplateGames/>
   </div>
 </template>
 
 <script>
-// <!--Import from diffrent file component -->
+// <!--Import component -->
 import TemplateGames from '@/components/TemplateGames.vue'
-
 
 export default {
 
@@ -23,4 +22,3 @@ export default {
   },
 };
 </script>
-

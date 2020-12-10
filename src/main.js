@@ -6,6 +6,7 @@ import firebase from 'firebase'
 
 Vue.config.productionTip = false
 
+// Hook to the firebase 
 const configOptions = {
   apiKey: 'AIzaSyApESsgSvrwKDdpZY9wb-iuDAfC8r0aCmM',
   authDomain: 'my-awesome-base.firebaseapp.com',
@@ -16,6 +17,7 @@ const configOptions = {
   appId: '1:605264774093:web:2f2cc62db7e932d9c4fa84'
 };
 
+// Initializing connection
 firebase.initializeApp(configOptions);
 
 firebase.auth().onAuthStateChanged(user => {
