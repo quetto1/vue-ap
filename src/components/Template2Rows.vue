@@ -3,10 +3,11 @@
 
     <div class="row1">
       <div class="row1-container1">
-        <h1>What this Webiste is all about?</h1>
+        <h1>What this Website is all about?</h1>
         <p>The porpuse of this website is to show a working Vue.js aplication which holds many features 
-          that are used in modern world of web development, such as simple login and registration system, which is an user 
-          authentication, routing, desktop and mobile view, responsivnes of HTML elements and simple projects that I've crated along with this website. 
+          that are used in modern world of web development, such as simple login and registration system, 
+          which is an user authentication, routing, desktop and mobile view, responsivnes of HTML elements
+           and simple projects that I've crated along with this website. 
        </p>
       </div>
       <div class="row1-container2">
@@ -68,21 +69,20 @@ export default {
     margin-left: auto;
     margin-right: auto;
     max-width: 1224px;
-    /* border: solid black 2px; */
-    /* height: 500px; */
     justify-content: space-evenly;
   }
 
   .row1-container1{
     width: 520px;
- background: rgb(20,30,48);
-background: linear-gradient(356deg, rgba(20,30,48,0.9) 0%, rgba(36,59,85,0.9) 100%);
-color: blanchedalmond;
-padding: 20px;
+    background: rgb(20,30,48);
+    background: linear-gradient(356deg, rgba(20,30,48,0.9) 0%, rgba(36,59,85,0.9) 100%);
+    color: blanchedalmond;
+    padding: 20px;
     padding-top: 40px;
     border-radius: 15px;
     min-height: auto;
   }
+  
   .row1-container1 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 40px;

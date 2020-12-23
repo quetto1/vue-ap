@@ -7,7 +7,7 @@
             <br>
         <hr>
         <p> I made a fighting engine fully created in Vue.js, fight system is basen on rounds, i every single round the user has to choose, what he whats to do.
-             The purpose of the game is to salin a Monster. You can Attack, use Special Attacks, Heal yourself or If you think you wont manage, you can always choose to flee.
+             The purpose of the game is to slain a Monster. You can Attack, use Special Attacks, Heal yourself or If you think you wont manage, you can always choose to flee.
              Play smart and you will defead a monster!
        </p>
       </div>
@@ -31,7 +31,7 @@
        </p>
       </div>
       <div class="row1-container2">
-        <router-link to="/">
+        <router-link to="/date-picker">
         <img class="screen-night-img2" src="../assets/calendargif.gif" alt="">
         </router-link>
       </div>
@@ -60,6 +60,7 @@ export default {
  background-repeat: no-repeat;
  scroll-behavior: smooth;
 } */
+
 
   .row1{
     display: flex;

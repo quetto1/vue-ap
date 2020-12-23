@@ -10,6 +10,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 import Template2Rows from '@/components/Template2Rows.vue'
 
+
 export default {
   name: 'Home',
   components: {

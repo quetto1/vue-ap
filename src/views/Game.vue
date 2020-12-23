@@ -264,13 +264,6 @@ export default {
 
     },
 
-//   mounted() {
-//     if (!this.$store.getters.user.loggedIn) {
-//       this.$router.replace({ name: 'Home' });
-//     }
-//   },
-   components: {
-  },
 };
 </script>
 
@@ -279,7 +272,7 @@ export default {
      height: fit-content;
       margin: 0;
   padding: 0;
-  background: url('../assets/Dunegon.jpg') no-repeat center center fixed;
+  /* background: url('../assets/Dunegon.jpg') no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
