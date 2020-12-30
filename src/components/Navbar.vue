@@ -69,7 +69,6 @@ export default {
             index / 7 + 0.1
           }s`;
         }
-        console.log(index / 7);
       });
     },
   },
