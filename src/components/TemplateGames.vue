@@ -6,9 +6,9 @@
         <h1>Dungeon Adventure</h1>
             <br>
         <hr>
-        <p> I made a fighting engine fully created in Vue.js, fight system is basen on rounds, i every single round the user has to choose, what he whats to do.
-             The purpose of the game is to slain a Monster. You can Attack, use Special Attacks, Heal yourself or If you think you wont manage, you can always choose to flee.
-             Play smart and you will defead a monster!
+        <p> I made a fighting engine fully created in Vue.js, fight system is based on rounds, every single round the user has to choose, what he whats to do.
+             The purpose of the game is to slain a Monster. You can Attack, use Special Attacks, Heal yourself or If you think you won't manage, you can always choose to flee.
+             Play smart and you will defeat the monster!
        </p>
       </div>
       <div class="row1-container2">
@@ -25,13 +25,13 @@
             <br>
         <hr>
         <p>
-           Date Picker allows user to selected a certain date on the calendar and stores choosen date in array. User by clicking again on the same date can remove it from the array.
-           Besieds that Calndar lights up all dates that are currently choosen (stored in array). Calndar allways opens on the current month. From this point in can be used for booking systems etc..
-            This is defnitly one of my more advnaced app that I've created so far. Logic was written completly in raw java script code in order to be easli transfer to other JS framewokrs.
+           Date Picker allows the user to selected a certain date on the calendar and stores chosen date in the array. User by clicking again on the same date can remove it from the array.
+           Besides that Calendar lights up all dates that are currently chosen (stored in array). The calendar always opens in the current month. From this point, it can be used for booking systems, etc..
+            This is definitely one of my more advanced apps that I've created so far. The logic was written completely in raw javascript code in order to be easily transferred to other JS frameworks.
        </p>
       </div>
       <div class="row1-container2">
-        <router-link to="/date-picker">
+        <router-link to="/projects">
         <img class="screen-night-img2" src="../assets/calendargif.gif" alt="">
         </router-link>
       </div>

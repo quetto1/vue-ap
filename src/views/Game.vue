@@ -279,6 +279,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   scroll-behavior: smooth;
+  margin-top: 50px;
  }
 
 section {

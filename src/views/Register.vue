@@ -48,6 +48,7 @@ export default {
         .createUserWithEmailAndPassword(this.mail, this.password)
         .then((data) => {
           data.user.updateProfile({ displayName: this.name });
+          this.$router.replace({ name: 'Home' });
         })
         .catch((err) => {
           this.error = err.message;
@@ -63,6 +64,7 @@ export default {
 
 <style  scoped>
 .login-box {
+  z-index: -1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -117,7 +119,7 @@ export default {
 .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #03e9f4;
+  color: black;
   font-size: 12px;
 }
 
@@ -137,13 +139,13 @@ export default {
 }
 
 .login-box button:hover {
-  background: #03e9f4;
+  background: black;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 100px #03e9f4;
+  box-shadow: 0 0 5px black,
+              0 0 25px black,
+              0 0 50px black,
+              0 0 100px black;
 }
 
 .login-box button span {
@@ -156,7 +158,7 @@ export default {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, black);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -174,7 +176,7 @@ export default {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, black);
   animation: btn-anim2 1s linear infinite;
   animation-delay: .25s
 }
@@ -193,7 +195,7 @@ export default {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, black);
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s
 }
@@ -212,7 +214,7 @@ export default {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, black);
   animation: btn-anim4 1s linear infinite;
   animation-delay: .75s
 }

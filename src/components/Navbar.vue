@@ -48,9 +48,7 @@ export default {
         .auth()
         .signOut()
         .then(() => {
-          this.$router.replace({
-            name: 'about',
-          });
+                   this.$router.replace({ name: 'Home' });
         });
       alert('You Have been Log Out succesfully');
     },
@@ -91,7 +89,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background: linear-gradient(#141e30, #243b55);
+  background: #fcec0c;
+  border-bottom: solid black 5px;
 
   font-family: "Poppins", sans-serif;
 }
@@ -112,27 +111,27 @@ nav {
   list-style: none;
 }
 .nav-links a {
-  color: rgb(226, 226, 226);
+  color: black;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 19px;
   cursor: pointer;
 }
 .nav-links a:focus {
-  background: #03e9f4;
+  background: black;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
+  box-shadow: 0 0 10px black, 0 0 25px black, 0 0 50px black,
+    0 0 100px black;
   transition: all 0.5s;
 }
 .nav-links a:target {
-  background: #03e9f4;
+  background: black;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
+  box-shadow: 0 0 10px black, 0 0 25px black, 0 0 50px black,
+    0 0 100px black;
 }
 .burger {
   display: none;
@@ -141,7 +140,7 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: rgb(226, 226, 226);
+  background-color: black;
   margin: 5px;
   transition: all 0.3 ease;
 }
@@ -161,7 +160,10 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background: linear-gradient(#141e30, #243b55);
+      background: #fcec0c;
+      border-left: 3px solid black;
+      border-top-left-radius: 10%;
+      border-bottom-left-radius: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;

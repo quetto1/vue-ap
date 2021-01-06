@@ -4,10 +4,10 @@
     <div class="row1">
       <div class="row1-container1">
         <h1>What this Website is all about?</h1>
-        <p>The porpuse of this website is to show a working Vue.js aplication which holds many features 
-          that are used in modern world of web development, such as simple login and registration system, 
-          which is an user authentication, routing, desktop and mobile view, responsivnes of HTML elements
-           and simple projects that I've crated along with this website. 
+        <p>The purpose of this website is to show a working Vue.js application that holds many features 
+          that are used in the modern world of web development, such as simple login and registration system, 
+          which is user authentication, routing, desktop, and mobile view, responsiveness of HTML elements
+           and simple projects that I've crated along with this website.
        </p>
       </div>
       <div class="row1-container2">
@@ -26,12 +26,12 @@
         <p>
             > Register a new account (Click "Register")
             <br>
-            > Login by usisng your new account
+            > Login by using your new account
             <br>
             > Once you are logged in a Projects card should appear in the navbar. Click on it!
             <br>
 
-            > Enjoy and test out hidden conent for Logged ussers, You can now Play game or see other apps! :D
+            > Enjoy and test out hidden content for Logged users, You can now Play game or see other apps! 
        </p>
       </div>
     </div>
